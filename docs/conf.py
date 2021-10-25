@@ -35,7 +35,7 @@ except ImportError:
     from sphinx import apidoc
 
 output_dir = os.path.join(__location__, "api")
-module_dir = os.path.join(__location__, "../src/repo_name_to_be_changed")
+module_dir = os.path.join(__location__, "../src/U-net")
 try:
     shutil.rmtree(output_dir)
 except FileNotFoundError:
@@ -164,7 +164,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 try:
-    from repo_name_to_be_changed import __version__ as version
+    from U-net import __version__ as version
 except ImportError:
     pass
 else:
@@ -229,7 +229,7 @@ html_static_path = ['_static']
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'repo_name_to_be_changed-doc'
+htmlhelp_basename = 'U-net-doc'
 
 
 # -- Options for LaTeX output --------------------------------------------------

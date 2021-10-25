@@ -1,5 +1,5 @@
 
-# repo_name_to_be_changed
+# U-net
 ![Python application](https://github.com/GamayaSpectral/template_ds/workflows/Python%20application/badge.svg)
 
 Project template for Gamaya python projects
@@ -51,12 +51,12 @@ Please check that you have edited the file setup.cfg before trying to install
 If you are using the project template, please change the placeholder with your own repo name.
 You can use the following command to go faster:
 ```console
-    $ mv ./src/repo_name_to_be_changed ./src/your_new_repo_name
-    $ find . -path ./venv -prune -o -name '*.py' -exec sed -i -e 's/repo_name_to_be_changed/your_new_repo_name/g' {} \;
-    $ find . -path ./venv -prune -o -name '*.cfg' -exec sed -i -e 's/repo_name_to_be_changed/your_new_repo_name/g' {} \;
-    $ find . -path ./venv -prune -o -name '*.yml' -exec sed -i -e 's/repo_name_to_be_changed/your_new_repo_name/g' {} \;
-    $ find . -path ./venv -prune -o -name 'Makefile' -exec sed -i -e 's/repo_name_to_be_changed/your_new_repo_name/g' {} \;
-    $ find . -path ./venv -prune -o -name '*.md' -exec sed -i -e 's/repo_name_to_be_changed/your_new_repo_name/g' {} \;
+    $ mv ./src/U-net ./src/your_new_repo_name
+    $ find . -path ./venv -prune -o -name '*.py' -exec sed -i -e 's/U-net/your_new_repo_name/g' {} \;
+    $ find . -path ./venv -prune -o -name '*.cfg' -exec sed -i -e 's/U-net/your_new_repo_name/g' {} \;
+    $ find . -path ./venv -prune -o -name '*.yml' -exec sed -i -e 's/U-net/your_new_repo_name/g' {} \;
+    $ find . -path ./venv -prune -o -name 'Makefile' -exec sed -i -e 's/U-net/your_new_repo_name/g' {} \;
+    $ find . -path ./venv -prune -o -name '*.md' -exec sed -i -e 's/U-net/your_new_repo_name/g' {} \;
 ```
 Alsom think about changing
 * the slack channel name inside of .github/workflows/pythonapp.yml

@@ -2,7 +2,7 @@
 import pytest
 
 # Local stuff
-from repo_name_to_be_changed.skeleton import fib
+from U-net.skeleton import fib
 
 def test_fib():
     assert fib(1) == 1
